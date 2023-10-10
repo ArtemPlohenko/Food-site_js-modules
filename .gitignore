@@ -1,0 +1,10 @@
+/node_modules
+/.php
+.php.js
+
+/coverge
+
+/build
+
+.DS_Store
+.env.lacal
