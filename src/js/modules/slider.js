@@ -148,5 +148,3 @@ function slider({ container, slide, nextArrow, prevArrow, totalCounter, currentC
     return +str.replace(/\D/g, "");
   }
 }
-
-export default slider;

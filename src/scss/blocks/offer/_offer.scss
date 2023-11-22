@@ -4,6 +4,9 @@
   .container {
     display: flex;
     justify-content: space-between;
+    @media (max-width: 1200px) {
+      flex-wrap: wrap-reverse;
+    }
   }
   .bgc_y {
     position: absolute;
@@ -30,6 +33,9 @@
   &__advantages {
     width: 330px;
     margin-top: 50px;
+    @media (max-width: 1200px) {
+      width: 100%;
+    }
     h2 {
       font-weight: bold;
       font-size: 20px;
@@ -51,6 +57,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    @media (max-width: 1200px) {
+      margin: 50px auto 0;
+    }
     &-counter {
       display: flex;
       width: 180px;

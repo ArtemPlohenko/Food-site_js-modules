@@ -49,6 +49,9 @@ a {
   height: 1px;
   margin: 0 auto;
   background-color: rgba(0, 0, 0, 0.5);
+  @media (max-width: 1200px) {
+    display: none;
+  }
 }
 
 .title {
